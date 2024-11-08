@@ -1,0 +1,166 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-services {
+  background-color: rgb(240, 245, 245);
+  height: 20vh;
+  border-radius: 10px;
+  width: 40vh;
+  font-size: 10px;
+  margin: 10px;
+  background-size: cover;
+  padding: 10px;
+}
+.service-container {
+  display: flex;
+  flex-direction: row;
+}
+.heading {
+  text-align: center;
+}
+.discover {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 20px;
+  justify-content: space-around;
+  text-align: center;
+}
+.footer-title {
+  text-align: left;
+}
+.card-discover {
+  justify-content: space-between;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+.display-card {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  margin: 20px;
+}
+.input {
+  height: auto;
+  width: auto;
+  margin: 20px;
+}
+.button {
+  margin: 20px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(21, 168, 231);
+  color: white;
+}
+.vl {
+  border-left: 5px solid black;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  border-radius: 30px;
+  margin: 5px;
+}
+.rating {
+  text-align: left;
+  margin-left: 50px;
+}
+.image-pic {
+  height: 37vh;
+  width: 35vw;
+  padding-top: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+.testimonials {
+  background-color: rgb(240, 245, 245);
+  height: 30vh;
+  border-radius: 10px;
+  width: 40vw;
+  font-size: 10px;
+  margin: 10px;
+  background-size: cover;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 245, 245);
+  height: 42vh;
+  border-radius: 10px;
+  width: 100vw;
+  padding: 10px;
+  margin: 10px;
+  background-size: cover;
+}
+.display-card {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 245, 245);
+  height: 20vh;
+  border-radius: 10px;
+  width: 70vw;
+  padding: 10px;
+  background-size: cover;
+}
+.hero-image {
+  height: 40vh;
+  width: 50vw;
+  margin: 5px;
+}
+.footer {
+  background-color: rgb(240, 245, 245);
+  height: 30vh;
+  width: 100vw;
+  font-size: 12px;
+  margin: 10px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.button-footer {
+  margin: 5px;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(21, 168, 231);
+  color: white;
+}
