@@ -24,9 +24,9 @@ const DiscoverFrom = () => {
                   height="50px"
                   className="image"
                 />
-                <h3>{testimonial.name}</h3>
+                <div> <h3>{testimonial.name}</h3>
+              <p className="rating">{testimonial.rating}</p></div>
               </div>
-              <p className="rating">{testimonial.rating}</p>
               <p>
                 I am writing this after reflecting on my one month stay with
                 Bricabin in Ladakh. Right from picking us up at the airport to
@@ -55,9 +55,9 @@ const DiscoverFrom = () => {
                     width="50px"
                     height="50px"
                   />
-                  <h3>{testimonial.name}</h3>
-                </div>
-                <p className="rating">{testimonial.rating}</p>
+                   <div> <h3>{testimonial.name}</h3>
+              <p className="rating">{testimonial.rating}</p></div>
+              </div>
                 <p>
                   I am writing this after reflecting on my one month stay with
                   Bricabin in Ladakh. Right from picking us up at the airport to
@@ -81,9 +81,9 @@ const DiscoverFrom = () => {
                   height="50px"
                   className="image"
                 />
-                <h3>{testimonial.name}</h3>
+                 <div> <h3>{testimonial.name}</h3>
+              <p className="rating">{testimonial.rating}</p></div>
               </div>
-              <p className="rating">{testimonial.rating}</p>
               <p>
                 I am writing this after reflecting on my one month stay with
                 Bricabin in Ladakh. Right from picking us up at the airport to
@@ -104,9 +104,9 @@ const DiscoverFrom = () => {
                     height="50px"
                     className="image"
                   />
-                  <h3>{testimonial.name}</h3>
-                </div>
-                <p className="rating">{testimonial.rating}</p>
+                   <div> <h3>{testimonial.name}</h3>
+              <p className="rating">{testimonial.rating}</p></div>
+              </div>
                 <p>
                   I am writing this after reflecting on my one month stay with
                   Bricabin in Ladakh. Right from picking us up at the airport to
