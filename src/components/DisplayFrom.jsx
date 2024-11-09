@@ -1,138 +1,42 @@
 import React from "react";
-const DiscoverFrom = () => {
-  const testimonials = [
-    {
-      name: "Arjun Raghav",
-      rating: "⭐⭐⭐⭐⭐",
-      image:
-        "https://plus.unsplash.com/premium_photo-1664298917721-492bc002899b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGFkYWtofGVufDB8fDB8fHww",
-    },
-  ];
+
+const DisplayFrom = () => {
 
   return (
     <>
-      <h2 className="heading">Discover</h2>
-      <section className="discover">
-        <div className="testimonials">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial">
-              <div className="comment">
-                <img
-                  src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmUlMjBzbWFsbHxlbnwwfHwwfHx8MA%3D%3D"
-                  alt={testimonial.name}
-                  width="50px"
-                  height="50px"
-                  className="image"
-                />
-                <div>
-                  {" "}
-                  <h3>{testimonial.name}</h3>
-                  <p className="rating">{testimonial.rating}</p>
-                </div>
-              </div>
-              <p>
-                I am writing this after reflecting on my one month stay with
-                Bricabin in Ladakh. Right from picking us up at the airport to
-                dropping us back there after a month, Urgan was very responsible
-                and took good care of my friends and me.{" "}
-                <a href="read more">read more</a>
-              </p>
-            </div>
-          ))}
-        </div>
+      <div>
+        <section className="hero-container">
+          <div>
+            <h1 className="heading">
+              Work from <br />
+              Ladakh
+            </h1>
+            <p>Experience the perfect blend of work and adventure.</p>
+          </div>
 
-        <div>
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1664298917721-492bc002899b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGFkYWtofGVufDB8fDB8fHww"
-                alt={testimonial.name}
-                className="image-pic"
-              />
-              <div className="testimonials">
-                <div className=" comment">
-                  <img
-                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmUlMjBzbWFsbHxlbnwwfHwwfHx8MA%3D%3D"
-                    alt={testimonial.name}
-                    className="image"
-                    width="50px"
-                    height="50px"
-                  />
-                  <div>
-                    {" "}
-                    <h3>{testimonial.name}</h3>
-                    <p className="rating">{testimonial.rating}</p>
-                  </div>
-                </div>
-                <p>
-                  I am writing this after reflecting on my one month stay with
-                  Bricabin in Ladakh. Right from picking us up at the airport to
-                  dropping us back there after a month, Urgan was very
-                  responsible and took good care of my friends and me.{" "}
-                  <a href="read more">read more</a>
-                </p>
-              </div>
+          <div>
+            <img
+              src="https://media.istockphoto.com/id/1061972184/photo/landscape-of-snow-mountains-and-mountain-road-to-nubra-valley-in-leh-ladakh-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=sgLXL5_pZZ5jyYiGL1h3mLY2XNYH8cSVuLMZBPLz28c="
+              alt="Hero Image"
+              className="hero-image"
+            />
+          </div>
+        </section>
+        <card>
+          <div className="display-card">
+            <div>
+              <h3> CHECK-IN </h3>
+              <input type="date" name="stayDuration" className="input" />
             </div>
-          ))}
-        </div>
-        <div className="review">
-          <div className="testimonials">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="testimonial">
-                <div className="comment">
-                  <img
-                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmUlMjBzbWFsbHxlbnwwfHwwfHx8MA%3D%3D"
-                    alt={testimonial.name}
-                    width="50px"
-                    height="50px"
-                    className="image"
-                  />
-                  <div>
-                    {" "}
-                    <h3>{testimonial.name}</h3>
-                    <p className="rating">{testimonial.rating}</p>
-                  </div>
-                </div>
-                <p>
-                  I am writing this after reflecting on my one month stay with
-                  Bricabin in Ladakh. Right from picking us up at the airport to
-                  dropping us back there after a month, Urgan was very
-                  responsible and took good care of my friends and me.{" "}
-                  <a href="read more">read more</a>
-                </p>
-              </div>
-            ))}
+            <div>
+              <h3> CHECK-OUT </h3>
+              <input type="date" name="stayDuration" className="input" />
+            </div>
+            <button className="button">Book</button>
           </div>
-          <div className="testimonials">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="testimonial">
-                <div className="comment">
-                  <img
-                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmUlMjBzbWFsbHxlbnwwfHwwfHx8MA%3D%3D"
-                    alt={testimonial.name}
-                    width="50px"
-                    height="50px"
-                    className="image"
-                  />
-                  <div>
-                    {" "}
-                    <h3>{testimonial.name}</h3>
-                    <p className="rating">{testimonial.rating}</p>
-                  </div>
-                </div>
-                <p>
-                  I am writing this after reflecting on my one month stay with
-                  Bricabin in Ladakh. Right from picking us up at the airport to
-                  dropping us back there after a month, Urgan was very
-                  responsible and took good care of my friends and me.{" "}
-                  <a href="read more">read more</a>
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+        </card>
+      </div>
     </>
   );
 };
-export default DiscoverFrom;
+export default DisplayFrom;
