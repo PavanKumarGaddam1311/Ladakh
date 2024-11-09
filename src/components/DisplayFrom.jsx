@@ -1,12 +1,13 @@
 import React from "react";
 
 const DisplayFrom = () => {
+
   return (
     <>
       <div>
         <section className="hero-container">
           <div>
-            <h1>
+            <h1 className="heading">
               Work from <br />
               Ladakh
             </h1>
@@ -30,7 +31,6 @@ const DisplayFrom = () => {
             <div>
               <h3> CHECK-OUT </h3>
               <input type="date" name="stayDuration" className="input" />
-              <hr />
             </div>
             <button className="button">Book</button>
           </div>
