@@ -18,6 +18,7 @@
 }
 .heading {
   text-align: center;
+  font-family: "";
 }
 .discover {
   display: flex;
@@ -64,8 +65,8 @@ nav a {
 .display-card {
   display: flex;
   flex-direction: row;
-  height: auto;
-  width: auto;
+  height: 70vh;
+  width: 100vw;
   margin: 20px;
 }
 .input {
@@ -74,9 +75,10 @@ nav a {
   margin: 20px;
 }
 .button {
-  margin: 20px;
-  width: 100px;
-  height: 50px;
+  margin: 35px;
+
+  width: 70px;
+  height: 30px;
   border-radius: 5px;
   border: 0px;
   background-color: rgb(21, 168, 231);
@@ -93,6 +95,7 @@ nav a {
 .comment {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5px;
 }
 .image {
   border-radius: 30px;

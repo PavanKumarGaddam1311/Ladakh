@@ -24,9 +24,12 @@ const DiscoverFrom = () => {
                   height="50px"
                   className="image"
                 />
-                <h3>{testimonial.name}</h3>
+                <div>
+                  <h3>{testimonial.name}</h3>
+                  <p>{testimonial.rating}</p>
+                </div>
               </div>
-              <p className="rating">{testimonial.rating}</p>
+
               <p>
                 I am writing this after reflecting on my one month stay with
                 Bricabin in Ladakh. Right from picking us up at the airport to
@@ -55,9 +58,11 @@ const DiscoverFrom = () => {
                     width="50px"
                     height="50px"
                   />
-                  <h3>{testimonial.name}</h3>
+                  <div>
+                    <h3>{testimonial.name}</h3>
+                    <p>{testimonial.rating}</p>
+                  </div>
                 </div>
-                <p className="rating">{testimonial.rating}</p>
                 <p>
                   I am writing this after reflecting on my one month stay with
                   Bricabin in Ladakh. Right from picking us up at the airport to
@@ -69,31 +74,8 @@ const DiscoverFrom = () => {
             </div>
           ))}
         </div>
-
-        <div className="testimonials">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial">
-              <div className="comment">
-                <img
-                  src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmUlMjBzbWFsbHxlbnwwfHwwfHx8MA%3D%3D"
-                  alt={testimonial.name}
-                  width="50px"
-                  height="50px"
-                  className="image"
-                />
-                <h3>{testimonial.name}</h3>
-              </div>
-              <p className="rating">{testimonial.rating}</p>
-              <p>
-                I am writing this after reflecting on my one month stay with
-                Bricabin in Ladakh. Right from picking us up at the airport to
-                dropping us back there after a month, Urgan was very responsible
-                and took good care of my friends and me.{" "}
-                <a href="read more">read more</a>
-              </p>
-            </div>
-          ))}
-          <div>
+        <div className="d-flex flex-column">
+          <div className="testimonials">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="testimonial">
                 <div className="comment">
@@ -104,9 +86,39 @@ const DiscoverFrom = () => {
                     height="50px"
                     className="image"
                   />
-                  <h3>{testimonial.name}</h3>
+                  <div>
+                    <h3>{testimonial.name}</h3>
+                    <p>{testimonial.rating}</p>
+                  </div>
                 </div>
-                <p className="rating">{testimonial.rating}</p>
+
+                <p>
+                  I am writing this after reflecting on my one month stay with
+                  Bricabin in Ladakh. Right from picking us up at the airport to
+                  dropping us back there after a month, Urgan was very
+                  responsible and took good care of my friends and me.{" "}
+                  <a href="read more">read more</a>
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="testimonials">
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="testimonial">
+                <div className="comment">
+                  <img
+                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmUlMjBzbWFsbHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt={testimonial.name}
+                    width="50px"
+                    height="50px"
+                    className="image"
+                  />
+                  <div>
+                    <h3>{testimonial.name}</h3>
+                    <p>{testimonial.rating}</p>
+                  </div>
+                </div>
+
                 <p>
                   I am writing this after reflecting on my one month stay with
                   Bricabin in Ladakh. Right from picking us up at the airport to
